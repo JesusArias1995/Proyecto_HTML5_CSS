@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Synchronous by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
 		<title>F1</title>
@@ -21,8 +17,13 @@
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<script>
+		function mostrar(enla) {
+			obj = document.getElementById('oculto');
+			obj.style.display = (obj.style.display == 'block') ? 'none' : 'block';
+			enla.innerHTML = (enla.innerHTML == '-') ? '+' : '-';
+		}
+		</script>
 	</head>
 	<body class="homepage">
 		<div id="wrapper">
@@ -57,103 +58,133 @@
 						<div class="3u">
 							<section id="sidebar1">
 								<header>
-									<h2>Sidebar 1</h2>
+									<h2>Calendario 2018</h2>
 								</header>
 								<ul class="style3">
 									<li class="first">
-										<p class="date"><a href="#">Oct <b>03</b></a></p>
-										<p><a href="#">Donec leo, vivamus fermentum nibh in augue praesent urna congue rutrum. </a></p>
+										<p class="date"><a href="#">Mar <b>25</b></a></p>
+										<p><a href="#">GP de Australia Circuito: Albert Park</a></p>
 									</li>
 									<li>
-										<p class="date"><a href="#">Sep <b>30</b></a></p>
-										<p><a href="#">Donec leo, vivamus fermentum nibh in augue praesent urna congue rutrum.</a></p>
+										<p class="date"><a href="#">Abr <b>08</b></a></p>
+										<p><a href="#">GP de Baréin Circuito: Internacional de Bareín</a></p>
 									</li>
 									<li>
-										<p class="date"><a href="#">Sep <b>27</b></a> </p>
-										<p><a href="#">Donec leo, vivamus fermentum nibh in augue praesent urna congue rutrum.</a></p>
+										<p class="date"><a href="#">Abr <b>15</b></a> </p>
+										<p><a href="#">GP de China Circuito: Internacional de Shanghái</a></p>
 									</li>
+									<li>
+										<p class="date"><a href="#">Abr <b>29</b></a> </p>
+										<p><a href="#">GP de Azerbaiyán Circuito: Callejero de Bakú</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">May <b>13</b></a> </p>
+										<p><a href="#">GP de España Circuito: Barcelona-Cataluña</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">May <b>27</b></a> </p>
+										<p><a href="#">GP de Mónaco Circuito: Mónaco</a></p>
+									</li>
+									<a href="#" onclick="mostrar(this); return false" />Ver más</a>
+									<div id="oculto" style="display:none">
+									<li>
+										<p class="date"><a href="#">Jun <b>10</b></a> </p>
+										<p><a href="#">GP de Canadá Circuito: Gilles Villeneuve</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Jun <b>24</b></a> </p>
+										<p><a href="#">GP de Francia Circuito: Paul Ricard</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Jul <b>01</b></a> </p>
+										<p><a href="#">GP de Austria Circuito: Red Bull Ring</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Jul <b>08</b></a> </p>
+										<p><a href="#">GP de Gran Bretaña Circuito: Silverstone</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Jul <b>22</b></a> </p>
+										<p><a href="#">GP de Alemania Circuito: Hockenheimring</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Jul <b>29</b></a> </p>
+										<p><a href="#">GP de Hungría Circuito: Hungaroring</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Ago <b>26</b></a> </p>
+										<p><a href="#">GP de Bélgica Circuito: Spa-Francorchamps</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Sept <b>02</b></a> </p>
+										<p><a href="#">GP de Italia Circuito: Autodromo Nazionale di Monza</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Sept <b>16</b></a> </p>
+										<p><a href="#">GP de Singapur Circuito: Callejero de Marina Bay</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Sept <b>30</b></a> </p>
+										<p><a href="#">GP de Rusia Circuito: Autódromo de Sochi</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Oct <b>07</b></a> </p>
+										<p><a href="#">GP de Japón Circuito: Suzuka</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Oct <b>21</b></a> </p>
+										<p><a href="#">GP de Estados Unidos Circuito: De las Américas</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Oct <b>28</b></a> </p>
+										<p><a href="#">GP de México Circuito: Autódromo Hermanos Rodríguez</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Nov <b>11</b></a> </p>
+										<p><a href="#">GP de Brasil Circuito: Autódromo José Carlos Pace</a></p>
+									</li>
+									<li>
+										<p class="date"><a href="#">Nov <b>25</b></a> </p>
+										<p><a href="#">GP de Abu Dabi Circuito: Yas Marina</a></p>
+									</li>
+									</div>
 								</ul>
 							</section>
 						</div>
 						<div class="6u skel-cell-important">
 							<section id="content" >
 								<header>
-									<h2>Lorem Ipsum Dolor</h2>
+									<h2>Breve historia</h2>
 								</header>
-								<p>This is <strong>Synchronous</strong>, a responsive HTML5 site template freebie by <a href="http://templated.co">TEMPLATED</a>. Released for free under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so use it for whatever (personal or commercial) &ndash; just give us credit! Check out more of our stuff at <a href="http://templated.co">our site</a> or follow us on <a href="http://twitter.com/templatedco">Twitter</a>.</p>
-								<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo.</p>
-								<p>Sed etiam vestibulum velit mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget lorem ipsum dolor.</p>
-								<a href="#" class="button">Full Article</a>
+								<p>La historia de la fórmula 1 comienza alrededor del siglo XX, a partir del año 1946. Aunque la Fórmula 1 evolucionó desde las competiciones de Grand Prix de principios del siglo XX, como ya he dicho anteriormente, la verdadera historia de la F1 empezó en 1947 con la normalización de reglas por parte de la FIA. La historia del deporte ha ido en paralelo a la de sus regulaciones técnicas.</p>
+								<p>Las reglas para el Campeonato Mundial de Grand Prix ya habían sido establecidas antes de la Segunda Guerra Mundial, pero llevó varios años más de espera hasta su modificación, que tuvo lugar en 1947, cuando la antigua AIACR se reorganizó y paso a llamarse ``Federación Internacional de Automóvilismo´´ la actual FIA. Se creó la Fórmula 1 y se estableció un sistema de puntuación y se reconocieron un total de siete carreras como aptas para el Campeonato del Mundo. La primera carrera del Campeonato Mundial se llevó a cabo el 13 de mayo en el circuito de Silverstone, en el Reino Unido.</p>
+								<p><strong>Antes de la formula 1: </strong>Se empezó con las carrera de Grand Prix cuyas raíces comienzan con las carreras de automóviles organizadas en Francia desde 1894. Rápidamente evolucionaron de simples carreras en caminos de un pueblo a otro, a pruebas de resistencia para los autos y los pilotos. La innovación pronto rebasó los 160 kph pero al ser carreras en caminos abiertos eran frecuentes los accidentes que resultaban en defunciones tanto de pilotos como de espectadores.</p>
+								<p><strong>De 1950 a 1999: </strong>En 1947, como respuesta al Campeonato Mundial de Motociclismo iniciado en 1949, la Federación Internacional de Automovilismo (FIA) organizó el primer Campeonato Mundial de Pilotos oficial usando las reglas de la F1 diseñadas tras la guerra. Pero a finales de 1958 se gano el primer Campeonato Mundial de Constructores y motor trasero y a partir de aquí se mejoraron las reglas más adelante, seguridad, reglas y regulaciones, y desaparecieron muchas franquicias que hasta ese momento no habían logrado mucho éxito.</p>
+								<p><strong>De 2000 hasta la fecha: </strong>Al principio hubo un dominio total por parte de Schumacher y la escudería Ferrari, hasta 2005 en donde Ferrari se desvaneció y tomo ventaja el piloto español Fernando Alonso con el equipo Renault. En 2008 gano el campeonato Hamilton y en 2009 se produzco un avance en los monoplazas que fue la reducción de la aerodinámica, "doble difusor" y además el mundial fue para Button. Y por último desde 2010 hasta el 2012 se a proclamado tricampeón Vettel con el equipo Redbull( antiguo equipo jaguar) y con su gran , magnífico y aerodinámico monoplaza diseñado por el equipo Redbull, contra el cual solo a podido plantarle cara Fernando Alonso con la escudería Ferrari.</p>
 							</section>
 						</div>
 						<div class="3u">
 							<section id="sidebard2">
 								<header>
-									<h2>Sidebar 2</h2>
+									<h2>Equipos</h2>
 								</header>
 								<ul class="style1">
-									<li class="first"><span class="fa fa-check"></span><a href="#">Maecenas luctus lectus at sapien</a></li>
-									<li><span class="fa fa-check"></span><a href="#">Etiam rhoncus volutpat erat</a></li>
-									<li><span class="fa fa-check"></span><a href="#">Donec dictum metus in sapien</a></li>
-									<li><span class="fa fa-check"></span><a href="#">Integer gravida nibh quis urna</a></li>
-									<li><span class="fa fa-check"></span><a href="#">Etiam posuere augue sit amet nisl</a></li>
-									<li><span class="fa fa-check"></span><a href="#">Mauris vulputate dolor nibh</a></li>
-									<li><span class="fa fa-check"></span><a href="#">Nulla luctus eleifend purus</a></li>
+									<li class="first"><a href="#">Mercedes AMG Petronas Motorsport</a></li>
+									<li><a href="#">Scuderia Ferrari</a></li>
+									<li><a href="#">Aston Martin Red Bull Racing</a></li>
+									<li><a href="#">Sahara Force India F1 Team</a></li>
+									<li><a href="#">Williams Martini Racing</a></li>
+									<li><a href="#">Renault Sport Formula One Team</a></li>
+									<li><a href="#">Red Bull Toro Rosso Honda</a></li>
+									<li><a href="#">Haas F1 Team</a></li>
+									<li><a href="#">McLaren F1 Team</a></li>
+									<li><a href="#">Alfa Romeo Sauber F1 Team</a></li>
 								</ul>
-								<a href="#" class="button">Full Article</a>
 							</section>
 						</div>
 					</div>
 
 				</div>	
-			</div>
-
-			<!-- Footer -->
-			<div id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="3u">
-							<section id="box1">
-								<header>
-									<h2>Nulla facilisi</h2>
-								</header>
-								<ul class="style3">
-									<li class="first">
-										<p class="date"><a href="#">10.03.2012</a></p>
-										<p><a href="#">Vestibulum sem magna, elementum ut, vestibulum facilisis. Nulla facilisi. Cum sociis natoque penatibus.</a></p>
-									</li>
-									<li>
-										<p class="date"><a href="#">10.03.2012</a></p>
-										<p><a href="#">Pellentesque erat erat, tincidunt in, eleifend, malesuada bibendum. Suspendisse sit amet  in eros bibendum condimentum. </a> </p>
-									</li>
-								</ul>
-							</section>
-						</div>
-						<div class="6u">
-							<section id="box2">
-								<header>
-									<h2>Donec dictum metus</h2>
-								</header>
-								<div> <a href="#" class="image full"><img src="images/pics02.jpg" alt=""></a> </div>
-								<p>Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl.</p>
-							</section>
-						</div>
-						<div class="3u">
-							<section id="box3">
-								<header>
-									<h2>Gravida ipsum</h2>
-								</header>
-								<ul class="style1">
-									<li class="first"><a href="#">Pellentesque quis elit non lectus eleifend purus condimentum.</a></li>
-									<li><a href="#">Lorem ipsum dolort, consectetuer adipiscing dictum metus sapien.</a></li>
-									<li><a href="#">Phasellus nec dictum metus in sapien pellentesque congue.</a></li>
-									<li><a href="#">Cras vitae metus aliquam risus dictum metus in sapien pharetra.</a></li>
-									<li><a href="#">Duis non dictum metus in sapien ante in metus commodo euismod lobortis.</a></li>
-								</ul>
-							</section>
-						</div>
-					</div>
-				</div>
 			</div>
 
 			<!-- Copyright -->

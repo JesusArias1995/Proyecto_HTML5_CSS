@@ -533,7 +533,38 @@
 		.fa-vimeo-square:before{content:"\f194"}
 		.fa-turkish-lira:before,.fa-try:before{content:"\f195"}
 	
-
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th {
+   width: 25%;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.6em;
+   color: #000000;
+   caption-side: bottom;
+}
+td {
+   width: 25%;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.9em;
+   color: #525252;
+   caption-side: bottom;
+}
+caption {
+   padding: 0.3em;
+   color: #fff;
+    background: #000;
+}
+th {
+   background: #eee;
+}
 /** LIST STYLE 1 */
 
 ul.style1 {
