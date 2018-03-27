@@ -34,7 +34,7 @@
 					<!-- Logo -->
 					<div id="logo">
 						<h1><a href="#">Formula 1</a></h1>
-						<span>Design by TEMPLATED</span>
+						<span>2018</span>
 					</div>
 					
 					<!-- Nav -->
@@ -58,34 +58,62 @@
 							<section id="content" >
 								<header>
 									<h2>Formulario</h2>
-									<h3>Rellena el formulario indicando el piloto ganador del mundial 2018</h3>
 								</header>
-								<p>
-									<form action=http://www.gonzalonazareno.org/josedom/resultado.php method="post">
+									<form  class="contact_form" action=http://www.gonzalonazareno.org/josedom/resultado.php method="post" id="contact_form">
 										<div>
-											<label for="name">Name:</label>
-											<input type="text" id="name" />
+											<ul>
+												<li>
+													<p>Rellena el formulario indicando el piloto ganador del mundial 2018</p>
+													<span class="required_notification">* Datos requeridos</span>
+												</li>
+												<li>
+													<label for="name">Nombre:</label>
+													<input id="name" type="text" placeholder="Pepito Pérez" required />  
+												</li>
+												<li>
+													<label for="email">Email:</label>
+													<input id="email" type="email" name="email" placeholder="info@ejemplo.com" required />
+													<span class="form_hint">Formato correcto: "name@something.com"</span>
+												</li>
+												<li>
+                                                Elige el piloto ganador del mundial 2018: <input list="Pilotos" name="PilotoGanador">
+                                					<datalist id="Pilotos">
+                                					<option value="Lewis Hamilton">						
+                                					<option value="Sebastian Vettel">
+                                					<option value="Kimi Raikkonen">
+                                					<option value="Daniel Ricciardo">
+                                					<option value="Fernando Alonso">
+                                					<option value="Max Verstappen">
+                                					<option value="Nico Hülkenberg">
+                                					<option value="Valtteri Bottas">
+                                					<option value="Stoffel Vandoorne">
+                                					<option value="Carlos Sainz">
+                                					</datalist>
+                                                </li>
+												<li>
+													<label for="message">Comentario:</label>
+													<textarea id="message" name="message" cols="40" rows="6" required></textarea>
+												</li>
+												<li>
+													<button class="button">Enviar</button>
+												</li>
+											</ul>
 										</div>
-										<div>
-											<label for="mail">E-mail:</label>
-											<input type="email" id="mail" />
-										</div>
-										Elige el piloto ganador del mundial 2018: <input list="Pilotos" name="PilotoGanador">
-										<datalist id="Pilotos">
-											<option value="Hamilton">
-											<option value="Firefox">
-											<option value="Chrome">
-											<option value="Opera">
-											<option value="Safari">
-										</datalist>
-										<div>
-											<button class="button">Enviar</button>
-										</div>
-									</form>
-								</p>
+									</form> 
 							</section>
 						</div>
 					</div>
 
 				</div>	
 			</div>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<div class="container">
+					Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
